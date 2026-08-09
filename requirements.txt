@@ -1,0 +1,14 @@
+numpy>=2.3,<3
+pandas>=2.3,<3
+scipy>=1.16,<2
+scikit-learn>=1.7,<2
+statsmodels>=0.14,<0.15
+matplotlib>=3.10,<4
+seaborn>=0.13,<0.14
+xgboost>=3.2,<4
+lightgbm>=4.7,<5
+catboost>=1.2,<2
+interpret>=0.6,<1
+shap>=0.51,<0.52
+torch>=2.6
+

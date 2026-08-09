@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite this repository."
+title: "LendingClub Credit-Default Prediction under a Unified Framework"
+type: software
+authors:
+  - family-names: Luo
+    given-names: Yujiang
+version: 1.0.0
+date-released: 2026-08-06
+
