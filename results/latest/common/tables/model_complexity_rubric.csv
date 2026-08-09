@@ -1,0 +1,13 @@
+dimension,rating,classification_rule
+Functional flexibility,Low,Linear-additive or linear-margin representation.
+Functional flexibility,Moderate,Inspectably nonlinear additive representation.
+Functional flexibility,High,Ensemble or neural representation capable of nonlinear interactions.
+Development and estimation burden,Low,Direct estimation with few controlling choices.
+Development and estimation burden,Moderate,Validation selection or iterative fitting with a bounded candidate set.
+Development and estimation burden,High,"Multiple interacting modelling controls, architecture or optimisation choices, or iterative minibatch training."
+Probability-treatment burden,Low,Native probabilities or link-scale scores followed by the single common validation-fitted sigmoid map.
+Probability-treatment burden,Moderate,A probability map is essential because the fitted model supplies a margin or logit rather than a native probability.
+Probability-treatment burden,High,Not used in this study.
+Explanation and governance burden,Low,Global parameters are directly inspectable.
+Explanation and governance burden,Moderate,Inspectability is partial or scale-dependent.
+Explanation and governance burden,High,Post-hoc explanation and more extensive monitoring are required.

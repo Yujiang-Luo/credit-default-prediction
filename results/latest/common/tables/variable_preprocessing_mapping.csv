@@ -1,0 +1,35 @@
+feature,information_group,variable_type,preprocessing_class,learned_steps_fitted_on
+emp_length_num,Borrower and application characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+emp_length_missing,Borrower and application characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+home_ownership,Borrower and application characteristics,categorical,most-frequent imputation; training-fitted rare-category pooling; one-hot encoding,training_partition_only
+verification_status,Borrower and application characteristics,categorical,most-frequent imputation; training-fitted rare-category pooling; one-hot encoding,training_partition_only
+purpose,Borrower and application characteristics,categorical,most-frequent imputation; training-fitted rare-category pooling; one-hot encoding,training_partition_only
+application_type,Borrower and application characteristics,categorical,most-frequent imputation; training-fitted rare-category pooling; one-hot encoding,training_partition_only
+addr_state,Borrower and application characteristics,categorical,most-frequent imputation; training-fitted rare-category pooling; one-hot encoding,training_partition_only
+loan_amnt,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+term_months,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+int_rate,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+installment,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+annual_inc,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+dti,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+fico_score,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+credit_history_months,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+delinq_2yrs,Financial and credit characteristics,count,median imputation; p1-p99 winsorisation; log1p; standardisation,training_partition_only
+inq_last_6mths,Financial and credit characteristics,count,median imputation; p1-p99 winsorisation; log1p; standardisation,training_partition_only
+open_acc,Financial and credit characteristics,count,median imputation; p1-p99 winsorisation; log1p; standardisation,training_partition_only
+pub_rec,Financial and credit characteristics,count,median imputation; p1-p99 winsorisation; log1p; standardisation,training_partition_only
+revol_bal,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+revol_util,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+total_acc,Financial and credit characteristics,count,median imputation; p1-p99 winsorisation; log1p; standardisation,training_partition_only
+mort_acc,Financial and credit characteristics,count,median imputation; p1-p99 winsorisation; log1p; standardisation,training_partition_only
+pub_rec_bankruptcies,Financial and credit characteristics,count,median imputation; p1-p99 winsorisation; log1p; standardisation,training_partition_only
+acc_open_past_24mths,Financial and credit characteristics,count,median imputation; p1-p99 winsorisation; log1p; standardisation,training_partition_only
+avg_cur_bal,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+bc_open_to_buy,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+bc_util,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+total_bal_ex_mort,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+total_bc_limit,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+total_il_high_credit_limit,Financial and credit characteristics,continuous_numeric,median imputation; p1-p99 winsorisation; standardisation,training_partition_only
+initial_list_status,Financial and credit characteristics,categorical,most-frequent imputation; training-fitted rare-category pooling; one-hot encoding,training_partition_only
+disbursement_method,Financial and credit characteristics,categorical,most-frequent imputation; training-fitted rare-category pooling; one-hot encoding,training_partition_only
+grade,Platform-assigned risk information,categorical,most-frequent imputation; training-fitted rare-category pooling; one-hot encoding,training_partition_only

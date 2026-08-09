@@ -1,0 +1,11 @@
+model,functional_flexibility,development_and_estimation_burden,probability_treatment_burden,explanation_and_governance_burden,brief_basis_under_implemented_protocol
+Logistic Regression,Low,Low,Low,Low,Linear-additive fit; common validation sigmoid applied; coefficients directly inspectable.
+Probit Regression,Low,Low,Low,Low,Linear-additive latent-index fit; common validation sigmoid applied; coefficients directly inspectable.
+Linear SVM,Low,Moderate,Moderate,Moderate,Linear margin fit with validation-selected controls; a probability map is essential; weights are scale-dependent.
+Random Forest,High,Moderate,Low,High,Nonlinear bagged ensemble; validation selection and common sigmoid map; post-hoc explanation needed.
+XGBoost,High,High,Low,High,Regularised boosted trees with interacting controls; validation selection and common sigmoid map; post-hoc explanation needed.
+LightGBM,High,High,Low,High,Leaf-wise boosted trees with interacting controls; validation selection and common sigmoid map; SHAP used for explanation.
+CatBoost,High,High,Low,High,Symmetric boosted trees with interacting controls; validation selection and common sigmoid map; post-hoc explanation needed.
+Explainable Boosting Machine,Moderate,Moderate,Low,Moderate,Nonlinear additive components fitted iteratively; common sigmoid map; components remain inspectable but scale-dependent.
+MLP Neural Network,High,High,Moderate,High,Multilayer optimisation with early stopping; probability mapping from logits is essential; explanation and monitoring are not intrinsic.
+Modified FT-Transformer-style,High,High,Moderate,High,Attention-based tabular adaptation with early stopping; probability mapping from logits is essential; explanation and monitoring are not intrinsic.
