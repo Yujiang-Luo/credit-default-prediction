@@ -1,0 +1,122 @@
+feature,importance,rank,term_type
+term_months,0.2814739811041686,1,main_effect
+acc_open_past_24mths,0.1837472963861401,2,main_effect
+dti,0.1345350568244837,3,main_effect
+grade_A,0.1267459331424073,4,main_effect
+loan_amnt,0.1263200375811018,5,main_effect
+int_rate,0.1258880199105115,6,main_effect
+annual_inc,0.1057476236499575,7,main_effect
+fico_score,0.0960866507272412,8,main_effect
+grade_B,0.0918000583502661,9,main_effect
+total_acc,0.0888426000244957,10,main_effect
+total_il_high_credit_limit,0.0698412269135458,11,main_effect
+grade_E,0.0659625158453409,12,main_effect
+open_acc,0.0636843592680682,13,main_effect
+revol_util,0.0616954291712196,14,main_effect
+revol_bal,0.0609791415178835,15,main_effect
+grade_D,0.0583763329286251,16,main_effect
+avg_cur_bal,0.055885028930272,17,main_effect
+inq_last_6mths,0.0540801572249095,18,main_effect
+mort_acc,0.0464592410022347,19,main_effect
+home_ownership_MORTGAGE,0.0461370764166014,20,main_effect
+total_bc_limit,0.0459616452163226,21,main_effect
+home_ownership_RENT,0.0455836442801895,22,main_effect
+installment & revol_bal,0.0411318566146947,23,interaction
+emp_length_num & credit_history_months,0.0406352645923007,24,interaction
+emp_length_missing,0.0352413184667047,25,main_effect
+credit_history_months,0.0324702090644887,26,main_effect
+installment,0.0298335220959729,27,main_effect
+delinq_2yrs,0.0285146987550848,28,main_effect
+total_bal_ex_mort,0.0279190416723272,29,main_effect
+bc_util,0.0267857651964615,30,main_effect
+grade_F,0.0265266621226818,31,main_effect
+purpose_credit_card,0.0245092770773979,32,main_effect
+verification_status_Source Verified,0.0241128923252226,33,main_effect
+purpose_debt_consolidation,0.0218857471237452,34,main_effect
+term_months & initial_list_status_w,0.0202715237887821,35,interaction
+installment & total_bc_limit,0.0195536684287816,36,interaction
+bc_open_to_buy,0.0195004461387277,37,main_effect
+loan_amnt & total_bc_limit,0.0173376445284689,38,interaction
+home_ownership_MORTGAGE & addr_state_CA,0.0132697985077257,39,interaction
+addr_state_NY,0.0129159781589865,40,main_effect
+emp_length_num,0.0128642705197515,41,main_effect
+loan_amnt & revol_bal,0.0128285501404411,42,interaction
+initial_list_status_w,0.0124338763804782,43,main_effect
+initial_list_status_f,0.012312488445774,44,main_effect
+term_months & avg_cur_bal,0.0120868126121014,45,interaction
+addr_state_CO,0.0107976584111611,46,main_effect
+verification_status_Not Verified,0.0102445411029093,47,main_effect
+addr_state_WA,0.0099959576044074,48,main_effect
+avg_cur_bal & addr_state_CA,0.0099582280896215,49,interaction
+purpose_small_business,0.0091913391478846,50,main_effect
+term_months & mort_acc,0.0081376234100523,51,interaction
+addr_state_OR,0.0080936529184309,52,main_effect
+grade_C,0.0080380274905209,53,main_effect
+pub_rec_bankruptcies,0.0078144265165019,54,main_effect
+addr_state_GA,0.0072436965736491,55,main_effect
+home_ownership_OWN,0.007003148273343,56,main_effect
+addr_state_NJ,0.0069480682170594,57,main_effect
+grade_G,0.006225857578417,58,main_effect
+verification_status_Verified,0.005758454429653,59,main_effect
+pub_rec,0.0055900869236647,60,main_effect
+addr_state_FL,0.0054170539427558,61,main_effect
+addr_state_SC,0.0053686262979488,62,main_effect
+addr_state_KS,0.0047226237155659,63,main_effect
+addr_state_OK,0.004624516104953,64,main_effect
+addr_state_WI,0.003846058330898,65,main_effect
+addr_state_AL,0.0034835499787712,66,main_effect
+addr_state_IL,0.0033121420254661,67,main_effect
+addr_state_OH,0.0031860267815967,68,main_effect
+addr_state_NH,0.0031274655278077,69,main_effect
+addr_state_TX,0.0028612043756114,70,main_effect
+addr_state_NV,0.0026172635674495,71,main_effect
+addr_state_LA,0.002472348561023,72,main_effect
+addr_state_WV,0.0024345729651603,73,main_effect
+purpose_medical,0.0024071066283736,74,main_effect
+addr_state_AR,0.002131427653923,75,main_effect
+addr_state_MN,0.0020851687562737,76,main_effect
+addr_state_AZ,0.0018649642962684,77,main_effect
+addr_state_CA,0.0017713254692881,78,main_effect
+purpose_car,0.0017610879179376,79,main_effect
+purpose_other,0.0017502977223429,80,main_effect
+addr_state_MS,0.0017178589482036,81,main_effect
+addr_state_MA,0.0017007601051995,82,main_effect
+purpose_wedding,0.0014584018719928,83,main_effect
+addr_state_CT,0.0014223978663854,84,main_effect
+purpose_major_purchase,0.001406047241363,85,main_effect
+addr_state_MO,0.0013484343293494,86,main_effect
+addr_state_IN,0.0013344077165529,87,main_effect
+addr_state_NC,0.0013166540096441,88,main_effect
+addr_state_DC,0.0012284280075522,89,main_effect
+addr_state_MD,0.0011576996409901,90,main_effect
+purpose_moving,0.0011530642656421,91,main_effect
+addr_state_VT,0.0011222200015726,92,main_effect
+purpose_home_improvement,0.0011180943929042,93,main_effect
+addr_state_NM,0.00110408966445,94,main_effect
+addr_state_UT,0.0010405839185163,95,main_effect
+addr_state_KY,0.0009567705602456,96,main_effect
+addr_state_MI,0.000826135127267,97,main_effect
+addr_state_NE,0.0007676914272516,98,main_effect
+addr_state_HI,0.0006942665814841,99,main_effect
+addr_state_WY,0.0006029550092152,100,main_effect
+addr_state_RI,0.0005739795427176,101,main_effect
+addr_state_TN,0.0005405428222754,102,main_effect
+purpose_educational,0.0004575388925967,103,main_effect
+addr_state_SD,0.0003648107488141,104,main_effect
+addr_state_VA,0.0003163998267515,105,main_effect
+addr_state_PA,0.0002291607452647,106,main_effect
+purpose_renewable_energy,0.000188686315255,107,main_effect
+home_ownership_OTHER,0.0001795780959778,108,main_effect
+addr_state_AK,0.0001562046662702,109,main_effect
+addr_state_ME,0.0001154853654121,110,main_effect
+application_type_Individual,0.0001105431682997,111,main_effect
+purpose_vacation,9.75663374772259e-05,112,main_effect
+addr_state_ND,9.333527222590709e-05,113,main_effect
+application_type_Joint App,8.76238230059136e-05,114,main_effect
+disbursement_method_Cash,6.809921807359407e-05,115,main_effect
+disbursement_method_DirectPay,6.751726312003573e-05,116,main_effect
+addr_state_DE,4.805291598362929e-05,117,main_effect
+addr_state_MT,4.759713802106006e-05,118,main_effect
+purpose_house,4.231997690171509e-05,119,main_effect
+addr_state_infrequent_sklearn,1.0454298818872204e-05,120,main_effect
+home_ownership_infrequent_sklearn,8.230289749291369e-06,121,main_effect

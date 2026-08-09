@@ -1,0 +1,7 @@
+{
+  "model": "LightGBM",
+  "sample_rows": 5000,
+  "sample_source": "final_test_set",
+  "sampling": "random_without_replacement",
+  "random_state": 42
+}
