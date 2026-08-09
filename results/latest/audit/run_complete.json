@@ -1,0 +1,11 @@
+{
+  "run_id": "run_20260806T154718Z",
+  "status": "complete",
+  "started_utc": "2026-08-06T15:47:18.123140+00:00",
+  "completed_utc": "2026-08-06T16:20:05.476356+00:00",
+  "experiments": [
+    "random",
+    "temporal"
+  ],
+  "model_metric_rows": 44
+}

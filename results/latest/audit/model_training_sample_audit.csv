@@ -1,0 +1,21 @@
+run_id,split,feature_set,model,training_rows,inference_rows,coefficient_source,coefficient_training_rows,supplementary_uncertainty_rows,training_device,epochs_trained,best_validation_auc_internal
+run_20260806T154718Z,random,combined,LightGBM,320000,,,,,CPU,,
+run_20260806T154718Z,random,combined,MLP Neural Network,320000,,,,,NVIDIA GeForce RTX 5060 Laptop GPU,14.0,0.726999473824253
+run_20260806T154718Z,random,combined,FT-Transformer,320000,,,,,NVIDIA GeForce RTX 5060 Laptop GPU,12.0,0.7235760420457836
+run_20260806T154718Z,random,combined,Explainable Boosting Machine,320000,,,,,CPU,,
+run_20260806T154718Z,random,combined,CatBoost,320000,,,,,CPU,,
+run_20260806T154718Z,random,combined,Logistic Regression,320000,0.0,full_training_fitted_prediction_model,320000.0,0.0,CPU,,
+run_20260806T154718Z,random,combined,Linear SVM,320000,,,,,CPU,,
+run_20260806T154718Z,random,combined,Probit Regression,320000,0.0,full_training_fitted_prediction_model,320000.0,0.0,CPU,,
+run_20260806T154718Z,random,combined,Random Forest,320000,,,,,CPU,,
+run_20260806T154718Z,random,combined,XGBoost,320000,,,,,CPU,,
+run_20260806T154718Z,temporal,combined,MLP Neural Network,318136,,,,,NVIDIA GeForce RTX 5060 Laptop GPU,15.0,0.7211143205241923
+run_20260806T154718Z,temporal,combined,LightGBM,318136,,,,,CPU,,
+run_20260806T154718Z,temporal,combined,FT-Transformer,318136,,,,,NVIDIA GeForce RTX 5060 Laptop GPU,12.0,0.7196879174916657
+run_20260806T154718Z,temporal,combined,Explainable Boosting Machine,318136,,,,,CPU,,
+run_20260806T154718Z,temporal,combined,Logistic Regression,318136,0.0,full_training_fitted_prediction_model,318136.0,0.0,CPU,,
+run_20260806T154718Z,temporal,combined,Linear SVM,318136,,,,,CPU,,
+run_20260806T154718Z,temporal,combined,Probit Regression,318136,0.0,full_training_fitted_prediction_model,318136.0,0.0,CPU,,
+run_20260806T154718Z,temporal,combined,CatBoost,318136,,,,,CPU,,
+run_20260806T154718Z,temporal,combined,XGBoost,318136,,,,,CPU,,
+run_20260806T154718Z,temporal,combined,Random Forest,318136,,,,,CPU,,

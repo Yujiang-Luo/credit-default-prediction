@@ -1,0 +1,12 @@
+{
+  "run_id": "run_20260806T154718Z",
+  "status": "PASS",
+  "checks_passed": 105,
+  "checks_failed": 0,
+  "metric_rows": 44,
+  "random_test_rows": 100000,
+  "temporal_test_rows": 98107,
+  "calibration_protocol": "validation_sigmoid_on_raw_log_odds",
+  "paired_delong_output": "random_split/tables/paired_delong_comparisons.csv",
+  "manifest_rows": 142
+}

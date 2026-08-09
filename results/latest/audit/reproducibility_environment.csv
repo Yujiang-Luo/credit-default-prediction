@@ -1,0 +1,18 @@
+item,value
+final_run_identifier,run_20260806T154718Z
+random_state,42
+python_version,3.13.9
+operating_system,Windows-11-10.0.26200-SP0
+cpu,"AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD"
+logical_cpu_count,32
+gpu,NVIDIA GeForce RTX 5060 Laptop GPU
+numpy_version,2.3.5
+pandas_version,2.3.3
+scikit_learn_version,1.7.2
+statsmodels_version,0.14.5
+xgboost_version,3.2.0
+lightgbm_version,4.7.0
+catboost_version,1.2.10
+interpret_version,not installed
+torch_version,2.12.1+cu130
+shap_version,0.51.0

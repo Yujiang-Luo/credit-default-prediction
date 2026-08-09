@@ -1,0 +1,106 @@
+check,status,details
+single_run_id,PASS,['run_20260806T154718Z']
+metric_row_count,PASS,rows=44
+uniform_calibration_protocol,PASS,['validation_sigmoid_on_raw_log_odds']
+positive_calibration_slopes,PASS,min=0.901416
+random_prediction_models,PASS,"['CatBoost', 'Explainable Boosting Machine', 'FT-Transformer', 'LightGBM', 'Linear SVM', 'Logistic Regression', 'MLP Neural Network', 'Probit Regression', 'Random Forest', 'XGBoost']"
+random_test_rows,PASS,rows=100000
+random_raw_test_rows,PASS,rows=100000
+random_label_alignment,PASS,labels identical
+random_calibrated_probability_bounds,PASS,"all probabilities in [0,1]"
+random_raw_probability_bounds,PASS,"all probabilities in [0,1]"
+random_combined_metric_rows,PASS,rows=10
+random_MLP Neural Network_roc_auc,PASS,reported=0.726369172235; recomputed=0.726369172235
+random_MLP Neural Network_avg_precision,PASS,reported=0.399447512111; recomputed=0.399447512111
+random_MLP Neural Network_brier_score,PASS,reported=0.142403433307; recomputed=0.142403433307
+random_MLP Neural Network_raw_brier_score,PASS,reported=0.142530987453; recomputed=0.142530987453
+random_Explainable Boosting Machine_roc_auc,PASS,reported=0.723063781711; recomputed=0.723063781711
+random_Explainable Boosting Machine_avg_precision,PASS,reported=0.393461857067; recomputed=0.393461857067
+random_Explainable Boosting Machine_brier_score,PASS,reported=0.143034780807; recomputed=0.143034780807
+random_Explainable Boosting Machine_raw_brier_score,PASS,reported=0.143035012620; recomputed=0.143035012620
+random_Logistic Regression_roc_auc,PASS,reported=0.718993325592; recomputed=0.718993325592
+random_Logistic Regression_avg_precision,PASS,reported=0.387743838909; recomputed=0.387743838909
+random_Logistic Regression_brier_score,PASS,reported=0.143692333870; recomputed=0.143692333870
+random_Logistic Regression_raw_brier_score,PASS,reported=0.143693506206; recomputed=0.143693506206
+random_Probit Regression_roc_auc,PASS,reported=0.718925000020; recomputed=0.718925000020
+random_Probit Regression_avg_precision,PASS,reported=0.387353835044; recomputed=0.387353835044
+random_Probit Regression_brier_score,PASS,reported=0.143718398704; recomputed=0.143718398704
+random_Probit Regression_raw_brier_score,PASS,reported=0.143715945878; recomputed=0.143715945878
+random_Random Forest_roc_auc,PASS,reported=0.718089757221; recomputed=0.718089757221
+random_Random Forest_avg_precision,PASS,reported=0.386180310207; recomputed=0.386180310207
+random_Random Forest_brier_score,PASS,reported=0.143870245045; recomputed=0.143870245045
+random_Random Forest_raw_brier_score,PASS,reported=0.204407084431; recomputed=0.204407084431
+random_LightGBM_roc_auc,PASS,reported=0.726692358515; recomputed=0.726692358515
+random_LightGBM_avg_precision,PASS,reported=0.398410354735; recomputed=0.398410354735
+random_LightGBM_brier_score,PASS,reported=0.142400601317; recomputed=0.142400601317
+random_LightGBM_raw_brier_score,PASS,reported=0.210035293530; recomputed=0.210035293530
+random_CatBoost_roc_auc,PASS,reported=0.721526527320; recomputed=0.721526527320
+random_CatBoost_avg_precision,PASS,reported=0.391013990396; recomputed=0.391013990396
+random_CatBoost_brier_score,PASS,reported=0.143283957488; recomputed=0.143283957488
+random_CatBoost_raw_brier_score,PASS,reported=0.213851059030; recomputed=0.213851059030
+random_Linear SVM_roc_auc,PASS,reported=0.718945449595; recomputed=0.718945449595
+random_Linear SVM_avg_precision,PASS,reported=0.386934551875; recomputed=0.386934551875
+random_Linear SVM_brier_score,PASS,reported=0.143745196036; recomputed=0.143745196036
+random_Linear SVM_raw_brier_score,PASS,reported=0.223364009039; recomputed=0.223364009039
+random_FT-Transformer_roc_auc,PASS,reported=0.724003794494; recomputed=0.724003794494
+random_FT-Transformer_avg_precision,PASS,reported=0.395986513042; recomputed=0.395986513042
+random_FT-Transformer_brier_score,PASS,reported=0.142833963729; recomputed=0.142833963729
+random_FT-Transformer_raw_brier_score,PASS,reported=0.142973785779; recomputed=0.142973785779
+random_XGBoost_roc_auc,PASS,reported=0.716752931931; recomputed=0.716752931931
+random_XGBoost_avg_precision,PASS,reported=0.383724135952; recomputed=0.383724135952
+random_XGBoost_brier_score,PASS,reported=0.144080129376; recomputed=0.144080129376
+random_XGBoost_raw_brier_score,PASS,reported=0.215368392844; recomputed=0.215368392844
+random_composition_partitions,PASS,"{'train', 'test', 'validation'}"
+random_composition_test_rows,PASS,100000
+random_composition_test_defaults,PASS,19981
+temporal_prediction_models,PASS,"['CatBoost', 'Explainable Boosting Machine', 'FT-Transformer', 'LightGBM', 'Linear SVM', 'Logistic Regression', 'MLP Neural Network', 'Probit Regression', 'Random Forest', 'XGBoost']"
+temporal_test_rows,PASS,rows=98107
+temporal_raw_test_rows,PASS,rows=98107
+temporal_label_alignment,PASS,labels identical
+temporal_calibrated_probability_bounds,PASS,"all probabilities in [0,1]"
+temporal_raw_probability_bounds,PASS,"all probabilities in [0,1]"
+temporal_combined_metric_rows,PASS,rows=10
+temporal_MLP Neural Network_roc_auc,PASS,reported=0.714060625121; recomputed=0.714060625121
+temporal_MLP Neural Network_avg_precision,PASS,reported=0.396748258784; recomputed=0.396748258784
+temporal_MLP Neural Network_brier_score,PASS,reported=0.153893349374; recomputed=0.153893349374
+temporal_MLP Neural Network_raw_brier_score,PASS,reported=0.155015524570; recomputed=0.155015524570
+temporal_Explainable Boosting Machine_roc_auc,PASS,reported=0.709617070577; recomputed=0.709617070577
+temporal_Explainable Boosting Machine_avg_precision,PASS,reported=0.388980987960; recomputed=0.388980987960
+temporal_Explainable Boosting Machine_brier_score,PASS,reported=0.154902212126; recomputed=0.154902212126
+temporal_Explainable Boosting Machine_raw_brier_score,PASS,reported=0.155749643373; recomputed=0.155749643373
+temporal_Logistic Regression_roc_auc,PASS,reported=0.705690630309; recomputed=0.705690630309
+temporal_Logistic Regression_avg_precision,PASS,reported=0.385940492857; recomputed=0.385940492857
+temporal_Logistic Regression_brier_score,PASS,reported=0.155366098361; recomputed=0.155366098361
+temporal_Logistic Regression_raw_brier_score,PASS,reported=0.156054628202; recomputed=0.156054628202
+temporal_Probit Regression_roc_auc,PASS,reported=0.705533907343; recomputed=0.705533907343
+temporal_Probit Regression_avg_precision,PASS,reported=0.385241886650; recomputed=0.385241886650
+temporal_Probit Regression_brier_score,PASS,reported=0.155440449188; recomputed=0.155440449188
+temporal_Probit Regression_raw_brier_score,PASS,reported=0.155961521761; recomputed=0.155961521761
+temporal_Random Forest_roc_auc,PASS,reported=0.702976593497; recomputed=0.702976593497
+temporal_Random Forest_avg_precision,PASS,reported=0.379005818259; recomputed=0.379005818259
+temporal_Random Forest_brier_score,PASS,reported=0.155908654463; recomputed=0.155908654463
+temporal_Random Forest_raw_brier_score,PASS,reported=0.203464774084; recomputed=0.203464774084
+temporal_LightGBM_roc_auc,PASS,reported=0.710157820306; recomputed=0.710157820306
+temporal_LightGBM_avg_precision,PASS,reported=0.387516110332; recomputed=0.387516110332
+temporal_LightGBM_brier_score,PASS,reported=0.154941273667; recomputed=0.154941273667
+temporal_LightGBM_raw_brier_score,PASS,reported=0.212799553264; recomputed=0.212799553264
+temporal_CatBoost_roc_auc,PASS,reported=0.705028945017; recomputed=0.705028945017
+temporal_CatBoost_avg_precision,PASS,reported=0.382039594044; recomputed=0.382039594044
+temporal_CatBoost_brier_score,PASS,reported=0.155791473902; recomputed=0.155791473902
+temporal_CatBoost_raw_brier_score,PASS,reported=0.215928001189; recomputed=0.215928001189
+temporal_Linear SVM_roc_auc,PASS,reported=0.705648941898; recomputed=0.705648941898
+temporal_Linear SVM_avg_precision,PASS,reported=0.385321107383; recomputed=0.385321107383
+temporal_Linear SVM_brier_score,PASS,reported=0.155471647175; recomputed=0.155471647175
+temporal_Linear SVM_raw_brier_score,PASS,reported=0.224007506600; recomputed=0.224007506600
+temporal_FT-Transformer_roc_auc,PASS,reported=0.710129950540; recomputed=0.710129950540
+temporal_FT-Transformer_avg_precision,PASS,reported=0.390039525546; recomputed=0.390039525546
+temporal_FT-Transformer_brier_score,PASS,reported=0.154611980622; recomputed=0.154611980622
+temporal_FT-Transformer_raw_brier_score,PASS,reported=0.155913243366; recomputed=0.155913243366
+temporal_XGBoost_roc_auc,PASS,reported=0.703710537601; recomputed=0.703710537601
+temporal_XGBoost_avg_precision,PASS,reported=0.380628035985; recomputed=0.380628035985
+temporal_XGBoost_brier_score,PASS,reported=0.156103021683; recomputed=0.156103021683
+temporal_XGBoost_raw_brier_score,PASS,reported=0.216990292014; recomputed=0.216990292014
+temporal_composition_partitions,PASS,"{'train', 'test', 'validation'}"
+temporal_composition_test_rows,PASS,98107
+temporal_composition_test_defaults,PASS,21352
+expected_artifacts_present,PASS,[]
