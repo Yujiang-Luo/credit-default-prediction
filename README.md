@@ -1,6 +1,6 @@
 # LendingClub Credit-Default Prediction under a Unified Framework
 
-This repository contains the code and reported outputs for a 500,000-loan LendingClub credit-default study. It compares statistical, conventional machine-learning, interpretable machine-learning and neural/tabular models under a common outer protocol for data, features, validation, calibration and evaluation. Model-internal training remains estimator-appropriate: imbalance controls are prespecified and applied only where the implementation supports them meaningfully.
+This repository contains the code and reported outputs for a 500,000-loan LendingClub credit-default study. It compares statistical, conventional machine-learning, interpretable machine-learning and neural/tabular models under a common outer protocol for data, features, validation, calibration and evaluation. Model-internal training remains estimator-appropriate: imbalance controls are prespecified and applied only where the implementation supports them meaningfully. On the hardware used for this study, a full end-to-end run typically takes approximately 6–12 hours.
 
 ## Research design
 
